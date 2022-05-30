@@ -6,6 +6,5 @@ def run_home() :
     url = 'https://mblogthumb-phinf.pstatic.net/20160822_280/the_trip_1471844884310AySd7_JPEG/%B6%F3%BD%BA%BA%A3%B0%A1%BD%BA.jpg?type=w800'
     st.image(url)
 
-    url1 = 'https://www.oyster.com/wp-content/uploads/sites/35/2019/05/lobby-v6483044-1440-1024x683.jpg'
+    url1 = 'https://kilta.funandzam.com/wp-content/uploads/2021/08/wafaf.png'
     st.image(url1)
-    st.text(' HOTEL  The Alexandrian, Autograph Collection      ')
