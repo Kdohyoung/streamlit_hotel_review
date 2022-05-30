@@ -1,7 +1,6 @@
 import streamlit as st
 from app_home import run_home
-import string
-import nltk
+
 
 def main():
     st.title('호텔 정보제공 및 추천')
