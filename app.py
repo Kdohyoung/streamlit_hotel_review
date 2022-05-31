@@ -3,6 +3,9 @@ from app_home import run_home
 from app_data import run_data
 from app_ldata import run_ldata
 from app_chart import run_chart
+from app_ml import run_ml
+
+
 
 def main():
     st.title('호텔 정보제공 및 추천')
@@ -17,7 +20,7 @@ def main():
     elif choice == menu[3] :
         run_chart()
     elif choice == menu[4] :
-        pass
+        run_ml()
 
 
 
