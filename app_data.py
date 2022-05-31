@@ -14,7 +14,7 @@ def run_data() :
     st.subheader('호텔 데이터')
     sentence = st.text_input('호텔이름 입력')
     if st.button('검색'):
-        ht_info = df.loc[df['name']== sentence]
+        ht_info = df.loc [df['name'].str.lower().str.contains(sentence.lower()) , ]
         st.write(ht_info)
         
         
